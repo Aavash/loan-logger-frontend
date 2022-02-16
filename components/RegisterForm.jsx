@@ -56,7 +56,7 @@ function RegistrationForm() {
                 <input  onChange={(e) => setPassword(e.target.value)} type="password" className="border border-gray-300 outline-none placeholder-gray-400 p1-9 pr-4 py-1 rounded-md transition focus:ring-2 focus:ring-green-300 " placeholder="Password" name="password" />
                 </div>
                 <div className="relative">
-                <input  onChange={(e) => setConfirmPassword(e.target.value)} type="password" name="" className="border border-gray-300 outline-none placeholder-gray-400 p1-9 pr-4 py-1 rounded-md transition focus:ring-2 focus:ring-green-300 " placeholder="Confirm Password" name="confirm_password" />
+                <input  onChange={(e) => setConfirmPassword(e.target.value)} type="password" className="border border-gray-300 outline-none placeholder-gray-400 p1-9 pr-4 py-1 rounded-md transition focus:ring-2 focus:ring-green-300 " placeholder="Confirm Password" name="confirm_password" />
                 </div>
 
                 <button className='bg-green-400 font-medium inilne-flex items-center px-3 py-1 rounded-md shadow-md text-white transition hover:bg-green-500' type="submit">
